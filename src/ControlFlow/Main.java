@@ -102,24 +102,6 @@ public class Main {
 		System.out.println("Thanks for playing!");
 		System.exit(0);
 		
-//		Generate the "magic ball" first.  It should be the user's favorite quarterback jersey number *or* their lucky number, multiplied by one of the random numbers.  Make sure that the answer is less the max "magic" number of 75; if it is greater than 75 then subtract 75 from the value and that value is now the "magic ball" number.  
-//
-		
-		
-//		For the 5 non-magic numbers use your choice of any of the following methods to generate values: (Note that you may have to adjust each value to correct range by adding/subtracting.)
-//		* Find the 3rd letter of their favorite pet.  Convert that character value to an integer value.
-//		* Use the two digit model year of their car and add their lucky number to it.
-//		* Use the random number between 1 and 50, subtracting one of the generated random numbers.
-//		* Convert the first letter of their favorite actor/actress to an integer and use that value.
-//		* Convert the last letter of their favorate actor/actress to an integer and use that value.
-//		* Use the value 42.
-//		* Use the age of their favorite pet + their car model year.
-//		* Favorite quarterback number + age of pet + lucky number.
-//
-//		Once all the numbers have been calculated, print them out in this form:
-//		```
-//		Lottery numbers: 4, 17, 15, 52, 26  Magic ball: 22
-		
 		
 	}
 	
