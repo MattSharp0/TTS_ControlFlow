@@ -49,7 +49,7 @@ public class Main {
 			System.out.println("What is their jersey number? ");
 			Integer jerseyNumber = input.nextInt();
 			
-			System.out.println("What year is your car? ");
+			System.out.println("What year is your car? (ex: 1990) ");
 			int carYear = input.nextInt();
 			
 			System.out.println("What is the first name of your favourite actor? ");
@@ -66,13 +66,13 @@ public class Main {
 			//get off your ass and do some math
 			
 			int magicNumber = (luckyNumber + RANDOM_1);
-//			if (magicNumber > MAX_NUMBER) {
-//				magicNumber -= 75;
-//			}
+			if (magicNumber > MAX_NUMBER) {
+				magicNumber -= 75;
+			}
 			
 			int number1 = (petName.length() + petAge);
 			
-			int number2 = ((carYear - 1900) + RANDOM_2);
+			int number2 = ((carYear - 1920) + RANDOM_2);
 			if (number2 > MAX_NUMBER) {
 				number2 -= 75;	
 			}
@@ -81,14 +81,14 @@ public class Main {
 			}
 			
 			int number3 = (faveActor.length()*RANDOM_3);
-//			if (number3 > MAX_NUMBER) {
-//				number3 -= 75;
-//			}
+			if (number3 > MAX_NUMBER) {
+				number3 -= 75;
+			}
 			
 			int number4 = (favePlayer.length());
-//			if (number4 > MAX_NUMBER) {
-//				number4 -= 75;
-//			}
+			if (number4 > MAX_NUMBER) {
+				number4 -= 75;
+			}
 			
 			int number5 = ((number1 + number2 + number3 + number4) / 4);
 			
